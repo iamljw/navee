@@ -1,0 +1,48 @@
+{
+  "name": "navee",
+  "version": "1.0.0",
+  "description": "NodeJS模块化管理工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nav": "bin/navee.js"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamljw/navee.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Modularization",
+    "npm",
+    "auto",
+    "cli",
+    "Lightweight"
+  ],
+  "author": "iamljw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamljw/navee/issues"
+  },
+  "homepage": "https://github.com/iamljw/navee#readme",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "fstream": "^1.0.12",
+    "ora": "^3.4.0",
+    "progress-stream": "^2.0.0",
+    "unzip": "^0.1.11",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
