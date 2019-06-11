@@ -1,6 +1,6 @@
 {
   "name": "navee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS模块化管理工具",
   "main": "index.js",
   "scripts": {
